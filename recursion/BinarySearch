@@ -1,0 +1,23 @@
+class BinarySearch{
+	
+
+	int binarySearch(int key, int[] arr, int low, int high){
+
+		if(low >=high){
+			return -1;
+		}
+		
+		int middle = low + (high-low) / 2;
+		if(middle == key){
+			return middle;
+		}
+		else if(key > middle){
+		binarySearch(int key, int[] arr, middle+1, int high);
+		}
+		else{
+		binarySearch(int key, int[] arr, low, middle-1);
+		}
+
+	}
+
+}

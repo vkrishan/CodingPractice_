@@ -1,0 +1,33 @@
+class SumOFDigitsOfNumber{
+	
+
+	int sum(int num){
+
+		if(num ==0){
+			return 0;
+		}
+
+		else
+		return (num%10 + sum(num/10));
+
+
+
+	}
+
+
+
+
+
+}
+
+
+// 321
+321%10 -> 1  (remainder)
+321/10 -> 32 (quotient)
+
+// sum(321)
+1 + sum(32)	-> 3+2+1
+2 + sum(3)	-> 3+2
+3+ 0		-> 3
+
+

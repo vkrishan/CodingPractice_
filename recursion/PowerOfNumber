@@ -1,0 +1,22 @@
+class POwerOfNumber{
+	
+
+	int calcPower(int num, int pow){
+
+		if(pow ==0)
+		return 1;
+		else
+		return calcPower(num, pow-1)*num;
+
+	}
+
+}
+
+
+//calcPower(5,2)
+calcPower(5,1) *5 -> 1*5*5
+calcPower(5,0) *5 -> 1*5
+calcPower(5,0) -> 1
+
+
+

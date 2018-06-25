@@ -1,0 +1,31 @@
+// Find factorial using recursion
+
+
+class Factorial{
+	
+
+	int factorial(int input){
+
+		if(input == 1){
+			return 1;
+		}
+		else
+		return factorial(input-1) * input;
+
+	}
+
+
+
+
+}
+
+
+
+input ==4
+factorial(4) = factorial(3) * 4 -> 1*2*3*4
+factorial(3) = factorial(2) * 3 -> 1*2*3
+factorial(2) = factorial(1) * 2 -> 1*2
+factorial(1) = 1    
+
+
+

@@ -1,0 +1,15 @@
+class DecimalToBinary{
+	
+
+	String DtoB(int num){
+
+		
+
+
+	}
+
+
+
+
+
+}
